@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    CKM LARAVEL PROJECT
                 </div>
 
                 <div class="links">

@@ -256,7 +256,7 @@ desired effect
       <ul class="sidebar-menu">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
+        <li class="active"><a href="#signup" data-toggle="modal" data-target=".bs-modal-sm"><i class="fa fa-qrcode"></i> <span>Shop Register</span></a></li>
         <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
         <li class="treeview">
           <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
@@ -292,7 +292,350 @@ desired effect
     <!-- Main content -->
     <section class="content">
 
-      <!-- Your Page Content Here -->
+      
+<div class="container">
+  <div class="row">
+      <div class="col-lg-3">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <div class="row">
+              <div class="col-xs-6">
+                <i class="fa fa-user fa-5x"></i>
+              </div>
+              <div class="col-xs-6 text-right">
+                <p class="announcement-heading">1</p>
+                <p class="announcement-text">Profiles</p>
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            <div class="panel-footer announcement-bottom">
+              <div class="row">
+                <div class="col-xs-6">
+                  Expand
+                </div>
+                <div class="col-xs-6 text-right">
+                  <i class="fa fa-arrow-circle-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <div class="row">
+              <div class="col-xs-6">
+                <i class="fa fa-barcode fa-5x"></i>
+              </div>
+              <div class="col-xs-6 text-right">
+                <p class="announcement-heading">12</p>
+                <p class="announcement-text"> Products</p>
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            <div class="panel-footer announcement-bottom">
+              <div class="row">
+                <div class="col-xs-6">
+                  Expand
+                </div>
+                <div class="col-xs-6 text-right">
+                  <i class="fa fa-arrow-circle-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="panel panel-danger">
+          <div class="panel-heading">
+            <div class="row">
+              <div class="col-xs-6">
+                <i class="fa fa-users fa-5x"></i>
+              </div>
+              <div class="col-xs-6 text-right">
+                <p class="announcement-heading">18</p>
+                <p class="announcement-text">Users</p>
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            <div class="panel-footer announcement-bottom">
+              <div class="row">
+                <div class="col-xs-6">
+                  Expand
+                </div>
+                <div class="col-xs-6 text-right">
+                  <i class="fa fa-arrow-circle-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            <div class="row">
+              <div class="col-xs-6">
+                <i class="fa fa-comments fa-5x"></i>
+              </div>
+              <div class="col-xs-6 text-right">
+                <p class="announcement-heading">9000</p>
+                <p class="announcement-text"> Orders!</p>
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            <div class="panel-footer announcement-bottom">
+              <div class="row">
+                <div class="col-xs-6">
+                  Expand
+                </div>
+                <div class="col-xs-6 text-right">
+                  <i class="fa fa-arrow-circle-right"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div><!-- /.row -->
+    </div>
+
+    <!-- ------------------------------------------------------------- -->
+
+    <div class="container">
+ 
+   <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">Organization Information</h3>
+    </div>
+
+    <div class="panel-body">
+    
+     <div class="col-lg-2 dash-widget">
+        <div class="label-primary" style="padding: 5px; border-radius: 6px;">
+            <button class="btn btn-primary btn-lg btn-block disabled" role="button" style="padding: 2px;">
+                <div class="fa fa-clock-o fa-3x"></div>
+                <div class="icon-label">Time Zone</div>
+            </button> 
+            <button class="btn btn-inverse btn-block" style="height: 40px;">
+                Eastern
+            </button>
+        </div>
+    </div>
+    
+      <div class="col-lg-2 dash-widget">
+          <div class="label-primary" style="padding: 5px; border-radius: 6px;">
+            <button class="btn btn-primary btn-lg btn-block disabled" role="button" style="padding: 2px;">
+            <div class="fa fa-desktop fa-3x"></div>
+            <div class="icon-label">
+             Platform
+            </div></button> <button class="btn btn-inverse btn-block" style="height: 40px;">TIX2</button>
+          </div>
+        </div>
+    
+ 
+    
+        <div class="col-lg-2 dash-widget">
+          <div class="label-primary" style="padding: 5px; border-radius: 6px;">
+            <button class="btn btn-primary btn-lg btn-block disabled" role="button" style="padding: 2px;">
+            <div class="fa fa-shopping-cart fa-3x"></div>
+            <div class="icon-label">
+              Gateway
+            </div></button> <button class="btn btn-inverse btn-block" style="height: 40px;">Eastern</button>
+          </div>
+        </div>
+        
+       
+  
+        
+        <div class="col-lg-2 dash-widget">
+          <div class="label-primary" style="padding: 5px; border-radius: 6px;">
+            <button class="btn btn-primary btn-lg btn-block disabled" role="button" style="padding: 2px;">
+            <div class="fa fa-print fa-3x"></div>
+            <div class="icon-label">
+             Fullfilment
+            </div></button> <button class="btn btn-inverse btn-block" style="height: 40px;">Yes</button>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 dash-widget">
+          <div class="label-primary" style="padding: 5px; border-radius: 6px;">
+            <button class="btn btn-primary btn-lg btn-block disabled" role="button" style="padding: 2px;">
+            <div class="fa fa-suitcase fa-3x"></div>
+            <div class="icon-label">
+             Sales Rep
+            </div></button> <button class="btn btn-inverse btn-block" style="height: 40px;">Name Name</button>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 dash-widget">
+          <div class="label-primary" style="padding: 5px; border-radius: 6px;">
+            <button class="btn btn-primary btn-lg btn-block disabled" role="button" style="padding: 2px;">
+            <div class="fa fa-user fa-3x"></div>
+            <div class="icon-label">
+             Contact
+            </div></button> <button class="btn btn-inverse btn-block" style="height: 40px;">Name Name</button>
+          </div>
+        </div>
+  
+         
+  </div>
+</div>
+
+<style>
+* 
+{
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
+
+.navbar-basic.navbar-outline
+{
+background-color: transparent;
+border-color: rgba(94, 94, 94,.5);
+border-width:1px;
+border-radius: 6px;
+}
+
+ .btn-outline
+{
+background-color: transparent;
+border-color: rgba(94, 94, 94,.5);
+color: rgba(94, 94, 94,.8);
+border-width:1px;
+}
+
+.navbar-btn .btn-outline:hover
+{
+background-color: transparent;
+border-color: rgb(94, 94, 94);
+color: rgb(94, 94, 94);
+border-width:1px;
+transition: all .5s;
+}
+
+.navbar-btn .form-control, 
+ input[type="text"]
+{
+background-color: #ffffff;
+border-color: rgba(94, 94, 94,.5);
+color: rgba(94, 94, 94,.8);
+border-width: 1px;
+}
+
+.form-control:hover, 
+.form-control:focus, 
+.form-control:active, 
+.form-control.active,
+.form-control.focus,
+ input[type="text"]:hover, 
+ input[type="text"]:focus, 
+ input[type="text"]:active, 
+ input[type="text"].active 
+ input[type="text"]:focus,
+ input[type="text"].focus
+{
+background-color: #ffffff;
+border-color: rgb(94, 94, 94);
+color: rgba(94, 94, 94);
+border-width: 1px;
+transition: all .5s;
+}
+
+.navbar-left .btn-outline
+{
+margin-left:10px;   
+}
+
+.navbar-right .btn-outline
+{
+margin-right:10px;   
+}
+
+
+.widthOrg input[type="text"] 
+{
+width: 220px;   
+}
+
+.widthUser input[type="text"] 
+{
+width: 271px;   
+}
+
+.widthSearch input[type="text"] 
+{
+width: 324px;   
+}
+
+.navbar-default.navbar-outline
+{
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+
+.btn-outline
+{
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.slate .navbar-btn .btn-outline 
+{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(94, 94, 94, 0.5);
+    border-width: 1px;
+    color: white;
+}
+
+.slate dash-widget .btn disabled 
+{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(94, 94, 94, 0.5);
+    border-width: 1px;
+    color: white;
+}
+</style>
+
 
     </section>
     <!-- /.content -->
@@ -401,5 +744,123 @@ desired effect
      Both of these plugins are recommended to enhance the
      user experience. Slimscroll is required when using the
      fixed layout. -->
+
+<!-- sir thein added start -->
+
+<!-- Modal -->
+<div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+        <div style="background:#ee4f42;margin:0;padding:10px;text-align:center;color:white;">
+            <h1><i class="fa fa-qrcode"></i></h1>
+        </div>
+        <br>
+        <div class="bs-example bs-example-tabs">
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="active"><a href="#signin" data-toggle="tab">Sign In</a></li>
+              <li class=""><a href="#signup" data-toggle="tab">Register</a></li>
+              <li class=""><a href="#why" data-toggle="tab">Why?</a></li>
+            </ul>
+        </div>
+      <div class="modal-body">
+        <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in" id="why">
+        <p>We need this information so that you can receive access to the site and its content. Rest assured your information will not be sold, traded, or given to anyone.</p>
+        <p></p><br> Please contact <a mailto:href="JoeSixPack@Sixpacksrus.com"></a>JoeSixPack@Sixpacksrus.com</a> for any other inquiries.</p>
+        </div>
+        <div class="tab-pane fade active in" id="signin">
+            <form class="form-horizontal">
+            <fieldset>
+            <!-- Sign In Form -->
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Alias:</label>
+              <div class="controls">
+                <input required="" id="userid" name="userid" type="text" class="form-control" placeholder="JoeSixpack" class="input-medium" required="">
+              </div>
+            </div>
+
+            <!-- Password input-->
+            <div class="control-group">
+              <label class="control-label" for="passwordinput">Password:</label>
+              <div class="controls">
+                <input required="" id="passwordinput" name="passwordinput" class="form-control" type="password" placeholder="********" class="input-medium">
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="control-group">
+              <label class="control-label" for="signin"></label>
+              <div class="controls">
+                <button id="signin" name="signin" class="btn btn-success">Sign In</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+        </div>
+        <div class="tab-pane fade" id="signup">
+            <form class="form-horizontal">
+            <fieldset>
+            <!-- Sign Up Form -->
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="Email">Email:</label>
+              <div class="controls">
+                <input id="Email" name="Email" class="form-control" type="text" placeholder="JoeSixpack@sixpacksrus.com" class="input-large" required="">
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Alias:</label>
+              <div class="controls">
+                <input id="userid" name="userid" class="form-control" type="text" placeholder="JoeSixpack" class="input-large" required="">
+              </div>
+            </div>
+            
+            <!-- Password input-->
+            <div class="control-group">
+              <label class="control-label" for="password">Password:</label>
+              <div class="controls">
+                <input id="password" name="password" class="form-control" type="password" placeholder="********" class="input-large" required="">
+                <em>1-8 Characters</em>
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="reenterpassword">Re-Enter Password:</label>
+              <div class="controls">
+                <input id="reenterpassword" class="form-control" name="reenterpassword" type="password" placeholder="********" class="input-large" required="">
+              </div>
+            </div>
+            
+            
+            
+            <!-- Button -->
+            <div class="control-group">
+              <label class="control-label" for="confirmsignup"></label>
+              <div class="controls">
+                <button id="confirmsignup" name="confirmsignup" class="btn btn-success">Sign Up</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+      </div>
+    </div>
+      </div>
+      <div class="modal-footer">
+      <center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- sir thein added end -->
+
+
+
 </body>
 </html>
